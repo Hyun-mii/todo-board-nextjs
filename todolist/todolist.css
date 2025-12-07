@@ -1,0 +1,52 @@
+
+.App {
+  text-align: center;
+}
+.todoListContainer {
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 600px;
+  background-color: #e7eff8;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.todoTitle{
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+}
+.todoContainer{
+  text-align: left;
+  margin-left: 40px;
+
+}
+.todoCreateContainer{
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+.todoBtn{
+  border: 1px solid rgb(134, 129, 129);
+  border-radius:5px;
+  
+}
+
+.todoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todoContainer p {
+  flex: 1;
+}
+
+.todoContainer button {
+  margin-right: 40px;
+}
